@@ -321,7 +321,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void addr2loc(RequestQueue queue, String[] latitude, String[] longitude){
         String addressKey = String.valueOf(location.getText()).trim().replace(", ", "+").replace(" ", "+").replace(",", "+");
-        String geocodeURL = "https://maps.googleapis.com/maps/api/geocode/json?address="+ addressKey +"&key=AIzaSyBAiwNn9j0MI7ukI604WxpCLAyeng3nt_8";
+        String geocodeURL = "https://maps.googleapis.com/maps/api/geocode/json?address="+ addressKey +"&key=";//add api key string from config
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
                 (Request.Method.GET, geocodeURL, null, new Response.Listener<JSONObject>() {
 

@@ -14,5 +14,3 @@ Features:
     
     <img src="https://github.com/qyuan2000/Business-Search-Android-App/assets/65322077/8f26a966-b6d6-4273-a799-ffcb43233ad5" width="500px" />
 
-
-Demo video link: https://youtu.be/uy68nCgrRFk
